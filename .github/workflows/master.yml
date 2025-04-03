@@ -1,6 +1,6 @@
 name: ci
 
-on: 
+on:
   push:
     branches:
       - master
@@ -15,14 +15,14 @@ jobs:
 
       - uses: actions/setup-node@v3
         with:
-          node-version-file: '.nvmrc'
+          node-version-file: ".nvmrc"
 
       - run: yarn install --frozen-lockfile
 
       - run: yarn build
 
-      - name: Release
-        run: yarn release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Upload Resume PDF
+        uses: actions/upload-artifact@v3
+        with:
+          name: resume-pdf
+          path: public/resume.pdf
