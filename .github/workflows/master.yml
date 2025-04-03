@@ -22,7 +22,7 @@ jobs:
       - run: yarn build
 
       - name: Upload Resume PDF
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: resume-pdf
           path: public/resume.pdf
