@@ -1,7 +1,7 @@
 {
     "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
     "basics": {
-        "name": "Arthur L",
+        "name": "Arthur L.",
         "label": "Full Stack Developer | Web3 Specialist",
         "image": "",
         "email": "0xa1337@proton.me",
