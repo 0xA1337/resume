@@ -1,11 +1,8 @@
 {{#if resume.languages.length}}
   <h2>Languages</h2>
-  <section class='position languages'>
+  <p class="language-list">
     {{#each resume.languages}}
-      <div>
-        <p> {{language}} </p>
-        <p class='grey'> {{fluency}} </p>
-      </div>
+      {{language}}{{#if fluency}}&nbsp;({{fluency}}){{/if}}{{#unless @last}}&nbsp;|&nbsp;{{/unless}}
     {{/each}}
-  </section>
+  </p>
 {{/if}}
