@@ -144,15 +144,6 @@
             ]
         },
         {
-            "name": "Smart Contracts Development",
-            "level": "Beginner",
-            "keywords": [
-                "Solidity",
-                "Hardhat",
-                "Viem"
-            ]
-        },
-        {
             "name": "Blockchain Development",
             "level": "Expert",
             "keywords": [
@@ -170,11 +161,15 @@
                 "GitHub Actions",
                 "CI/CD",
                 "AWS",
-                "Testing (Vitest, Mocha/Sinon)",
-                "Agile Methodologies",
-                "Linear",
-                "Notion",
-                "Slack"
+                "Vitest, Mocha/Sinon"
+            ]
+        },
+        {
+            "name": "Smart Contracts Development",
+            "level": "Beginner",
+            "keywords": [
+                "Solidity",
+                "Hardhat"
             ]
         }
     ],

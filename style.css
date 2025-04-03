@@ -323,3 +323,46 @@ section ul {
   font-weight: 400;
   text-transform: none; /* Override h1 uppercase */
 }
+
+/* Styles for the new skills section */
+.skills-section {
+  margin-top: 1rem; /* Add some space above the section */
+}
+
+.skill-category {
+  margin: 0.25rem 0;
+}
+
+.skill-category h3 {
+  font-weight: 600;
+  margin: 0;
+  font-size: 12px;
+  text-transform: none;
+}
+
+.skill-level {
+  font-weight: 400; /* Normal weight for the level */
+  font-size: 11px; /* Slightly smaller */
+  color: var(--sub-headline); /* Use sub-headline color */
+  text-transform: none; /* Don't uppercase the level */
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none; /* Remove default list style */
+  margin-left: 0; /* Remove default ul indent */
+  padding-left: 0; /* Remove default ul padding */
+  margin-top: 0.2rem;
+}
+
+.keywords li {
+  margin-bottom: 0.25rem; /* Space below each keyword */
+  margin-right: 0.25rem; /* Space to the right of each keyword */
+  padding: 0.1rem 0.5rem; /* Padding inside the keyword bubble */
+  background-color: var(--secondary); /* Use secondary background color */
+  font-size: 11px; /* Smaller font size for keywords */
+  border-radius: 4px; /* Slightly rounded corners */
+  white-space: nowrap;
+  list-style-type: none; /* Ensure no list bullets */
+}
