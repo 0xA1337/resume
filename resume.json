@@ -1,144 +1,250 @@
 {
-  "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
-    "picture": "",
-    "email": "richard.hendriks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "USA",
-      "region": "California"
+    "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
+    "basics": {
+        "name": "Arthur L",
+        "label": "Full Stack Developer | Web3 Specialist",
+        "image": "",
+        "email": "0xa1337@proton.me",
+        "phone": "",
+        "url": "https://a1337.me",
+        "summary": "Experienced full stack developer specializing in Web3, blockchain technologies, and modern web development. Proven track record of architecting and delivering sophisticated applications across DeFi, NFTs, and blockchain infrastructure with expertise in Cosmos, Solana, and EVM ecosystems.",
+        "location": {
+            "city": "Paris, FR"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "0xA1337",
+                "url": "https://github.com/0xA1337"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "arthur-ljy",
+                "url": "https://www.linkedin.com/in/arthur-ljy/"
+            }
+        ]
     },
-    "pdfLink": "/index.pdf",
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
-      },
-      {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
-      },
-      {
-        "network": "Medium",
-        "username": "neutralthoughts",
-        "url": "https://medium.com/@neutralthoughts"
-      }
-    ]
-  },
-  "work": [
-    {
-      "company": "Google",
-      "website": "http://google.com/",
-      "positions": [
+    "work": [
         {
-          "position": "Senior Software Engineer",
-          "summary": "Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.",
-          "startDate": "Jan 2019"
+            "name": "Polarity / Hyperhyper",
+            "position": "Options Trading Protocol Developer",
+            "startDate": "2024-06-01",
+            "highlights": [
+                "Developing front-end components for an options trading platform on Hyperliquid blockchain",
+                "Created MVP webapp that contributed to successful fundraising",
+                "Working within a team of 3 developers to enhance user experience and protocol functionality"
+            ],
+            "summary": "Front-end development for a decentralized options trading protocol, initially on Berachain and later rebranded to Hyperhyper on Hyperliquid blockchain.",
+            "url": "https://polarity.finance/",
+            "location": "Remote",
+            "technologies": "Next.js, React, TypeScript, ShadCN, Tailwind, EVM Blockchains, Viem/Wagmi"
         },
         {
-          "summary": "Elit mollit ipsum fugiat enim labore et non. Amet nulla cupidatat esse est qui magna culpa velit magna excepteur proident Lorem aliquip ullamco. Anim culpa sit cillum enim consectetur aliqua id Lorem aute id id laborum. Sit nostrud ea anim et deserunt cillum sint culpa laboris. Nisi magna amet minim esse dolore. Do officia ipsum duis exercitation incididunt irure pariatur.",
-          "position": "Software Engineer",
-          "startDate": "Aug 2018",
-          "endDate": "Jan 2019"
+            "name": "Daylight",
+            "position": "Back-End Developer",
+            "startDate": "2024-02-01",
+            "highlights": [
+                "Developing modules for the 'Cataloger' service within a 3-person team",
+                "Implementing collectors for crypto applications to transform on-chain and API data into user recommendations",
+                "Collaborating with Brooklyn-based team through regular English communication"
+            ],
+            "summary": "Part-time contractor at Daylight (daylight.xyz), a Web3 startup specializing in user recommendations and data analysis.",
+            "url": "https://daylight.xyz",
+            "location": "Remote",
+            "technologies": "TypeScript, Node.js, Mocha/Sinon, PostgreSQL, Prisma, EVM Blockchains"
+        },
+        {
+            "name": "Imperator",
+            "position": "Front-End Web3 Developer",
+            "startDate": "2023-10-01",
+            "highlights": [
+                "Developed Solana domain name service connecting Injective blockchain with SNS domains via Wormhole bridge",
+                "Built token airdrop site for XION blockchain launch with authentication and token transfer security",
+                "Created interfaces for Authz management (permission delegation) on Injective blockchain"
+            ],
+            "summary": "Front-end development for multiple Cosmos ecosystem projects through Imperator, a major validator connecting developers with Cosmos projects.",
+            "url": "https://www.imperator.co/",
+            "location": "Remote",
+            "technologies": "Next.js, React, Nuxt, Vue, TypeScript, Tailwind, tRPC, Prisma, PostgreSQL, Vitest, Cosmos SDK"
+        },
+        {
+            "name": "Availabs",
+            "position": "Lead Back-End Developer",
+            "startDate": "2023-07-01",
+            "endDate": "2024-07-01",
+            "highlights": [
+                "Architected and developed complete backend for an AI/LLM-based meal planning application",
+                "Led team of 4 developers using agile methodologies and task management tools",
+                "Designed and developed Web3 investment management application with portfolio tracking and fiat/crypto conversion"
+            ],
+            "summary": "Full-time backend leadership role at a Paris-based startup, architecting solutions for AI and Web3 applications.",
+            "url": "https://availabs.io/",
+            "location": "Remote",
+            "technologies": "TypeScript, Node.js, Express, NestJS, Vitest, PostgreSQL, Prisma, Stripe"
+        },
+        {
+            "name": "Alcatel-Lucent Enterprise",
+            "position": "Work-Study Back-End Developer",
+            "startDate": "2021-09-01",
+            "endDate": "2023-07-01",
+            "highlights": [
+                "Designed and developed APIs for internal flex-office desk reservation service",
+                "Contributed to REST APIs for KPIs related to license sales",
+                "Enhanced real-time hybrid telephony event management system for improved scalability"
+            ],
+            "summary": "Back-end developer for Rainbow APIs (https://openrainbow.com/), Alcatel's flagship product similar to Microsoft Teams but designed for the European market with self-hosting capabilities.",
+            "url": "https://openrainbow.com/",
+            "location": "Strasbourg, FR (Hybrid)",
+            "technologies": "Node.js, Express.js, MongoDB, XMPP"
         }
-      ]
-    },
-    {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-      "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
-      ]
+    ],
+    "education": [
+        {
+            "institution": "University of Strasbourg",
+            "area": "Software Science and Engineering (SIL)",
+            "studyType": "Master's Degree",
+            "startDate": "2021-09-01",
+            "endDate": "2023-07-01",
+            "courses": [
+                "Work-study program (alternance)"
+            ]
+        },
+        {
+            "institution": "University of Strasbourg",
+            "area": "Computer Science",
+            "studyType": "Bachelor's Degree",
+            "startDate": "2018-09-01",
+            "endDate": "2021-07-01",
+            "courses": [
+                "General computer science curriculum"
+            ]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Base Blockchain Prize - SuperHack 2024",
+            "date": "2024-01-01",
+            "awarder": "ETHGlobal",
+            "summary": "Won as a solo developer against teams for building 'Fairpay', a gasless crowdfunding platform based on Base and Farcaster.",
+            "url": "https://ethglobal.com/showcase/fairpay-49hmu",
+            "keywords": []
+        }
+    ],
+    "skills": [
+        {
+            "name": "Frontend Development",
+            "level": "Expert",
+            "keywords": [
+                "React",
+                "Next.js",
+                "Vue",
+                "Nuxt",
+                "TypeScript",
+                "Tailwind CSS",
+                "ShadCN"
+            ]
+        },
+        {
+            "name": "Backend Development",
+            "level": "Expert",
+            "keywords": [
+                "Node.js",
+                "Express",
+                "NestJS",
+                "PostgreSQL",
+                "Prisma",
+                "MongoDB",
+                "REST APIs"
+            ]
+        },
+        {
+            "name": "Smart Contracts Development",
+            "level": "Beginner",
+            "keywords": [
+                "Solidity",
+                "Hardhat",
+                "Viem"
+            ]
+        },
+        {
+            "name": "Blockchain Development",
+            "level": "Expert",
+            "keywords": [
+                "Web3",
+                "EVM Blockchains",
+                "Cosmos SDK",
+                "Viem/Wagmi",
+                "OnchainKit"
+            ]
+        },
+        {
+            "name": "DevOps & Tools",
+            "level": "Proficient",
+            "keywords": [
+                "GitHub Actions",
+                "CI/CD",
+                "AWS",
+                "Testing (Vitest, Mocha/Sinon)",
+                "Agile Methodologies",
+                "Linear",
+                "Notion",
+                "Slack"
+            ]
+        }
+    ],
+    "languages": [
+        {
+            "language": "French",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "Professional working proficiency with strong communication skills"
+        }
+    ],
+    "references": [],
+    "projects": [
+        {
+            "name": "Fairpay",
+            "startDate": "2024-08-02",
+            "endDate": "2024-08-12",
+            "roles": [
+                "Full Stack Developer"
+            ],
+            "description": "A gasless crowdfunding platform built on Base and integrated with Farcaster. Developed as a solo project during the SuperHack 2024 online hackathon.",
+            "highlights": [
+                "Won Base blockchain prize at ETHGlobal's SuperHack 2024",
+                "Full stack implementation with gasless transactions for improved user experience",
+                "Integration with Farcaster for social functionality"
+            ],
+            "url": "https://ethglobal.com/showcase/fairpay-49hmu",
+            "technologies": "Next.js, TypeScript, ShadCN, Tailwind, OnchainKit, Viem, Base Blockchain, Farcaster",
+            "keywords": []
+        },
+        {
+            "name": "Ampy",
+            "startDate": "2022-09-01",
+            "endDate": "2024-01-01",
+            "roles": [
+                "Back-end Developer",
+                "Team Lead"
+            ],
+            "description": "Platform connecting musical artists with fans by exchanging album purchases/pre-orders/Spotify streams for chances to win prizes and benefits, using blockchain and NFTs to store users' 'fan cards' for specific artists.",
+            "highlights": [
+                "Collaborated with Sony Music (France), and the world class artist Jain for her album 'The Fool'",
+                "Led team of 5 developers, implementing agile methodologies and task management",
+                "Served as back-end development lead responsible for architecture decisions and technology selection",
+                "Mentored junior developers and provided technical guidance",
+                "Set up CI/CD pipelines for continuous deployment"
+            ],
+            "url": "https://www.ampy.co",
+            "technologies": "NestJS, TypeORM, PostgreSQL, AWS (Cognito, S3, SES), NFTs",
+            "keywords": []
+        }
+    ],
+    "meta": {
+        "canonical": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
+        "version": "v2.0.0",
+        "lastModified": "2025-04-01T14:37:37+09:00Z"
     }
-  ],
-  "volunteer": [
-    {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
-      "highlights": ["Awarded 'Teacher of the Month'"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": ["DB1101 - Basic SQL", "CS2011 - Java Introduction"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
-    {
-      "name": "Another project",
-      "publisher": "Occaecat qui Lorem adipisicing ut sunt aute.",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Nisi sit consectetur consectetur nulla. Nulla nostrud aliqua duis aliquip sunt. Cupidatat commodo cillum dolore nulla veniam enim in enim sint velit proident. Cupidatat laboris exercitation aliquip dolore eu elit. In mollit veniam eiusmod irure anim sit aute eu magna cillum. Sint aute irure laboris aute officia in velit in irure deserunt. Incididunt mollit mollit pariatur laborum laboris mollit ad enim ipsum deserunt. Ad tempor nulla occaecat consequat dolor nulla"
-    },
-    {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "Javascript"]
-    },
-    {
-      "name": "Compression",
-      "level": "Master",
-      "keywords": ["Mpeg", "MP4", "GIF"]
-    }
-  ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
-    }
-  ]
 }
