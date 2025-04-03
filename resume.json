@@ -81,21 +81,6 @@
             "url": "https://availabs.io/",
             "location": "Remote",
             "technologies": "TypeScript, Node.js, Express, NestJS, Vitest, PostgreSQL, Prisma, Stripe"
-        },
-        {
-            "name": "Alcatel-Lucent Enterprise",
-            "position": "Work-Study Back-End Developer",
-            "startDate": "2021-09-01",
-            "endDate": "2023-07-01",
-            "highlights": [
-                "Designed and developed APIs for internal flex-office desk reservation service",
-                "Contributed to REST APIs for KPIs related to license sales",
-                "Enhanced real-time hybrid telephony event management system for improved scalability"
-            ],
-            "summary": "Back-end developer for Rainbow APIs (https://openrainbow.com/), Alcatel's flagship product similar to Microsoft Teams but designed for the European market with self-hosting capabilities.",
-            "url": "https://openrainbow.com/",
-            "location": "Strasbourg, FR (Hybrid)",
-            "technologies": "Node.js, Express.js, MongoDB, XMPP"
         }
     ],
     "education": [
