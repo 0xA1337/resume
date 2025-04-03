@@ -2,7 +2,7 @@
   <h2>Languages</h2>
   <p class="language-list">
     {{#each resume.languages}}
-      {{language}}{{#if fluency}}&nbsp;({{fluency}}){{/if}}{{#unless @last}}&nbsp;|&nbsp;{{/unless}}
+      <strong>{{language}}</strong>{{#if fluency}}&nbsp;({{fluency}}){{/if}}{{#unless @last}}&nbsp;|&nbsp;{{/unless}}
     {{/each}}
   </p>
 {{/if}}

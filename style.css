@@ -136,8 +136,8 @@ textarea {
   --text: #000000;
   --headline: #000000;
   --sub-headline: #000000;
-  --primary: rgb(207, 214, 255);
-  --secondary: rgb(238, 245, 255);
+  --primary: rgb(221, 224, 244);
+  --secondary: rgb(244, 247, 251);
 }
 
 body {
@@ -154,7 +154,8 @@ h1 {
 }
 
 h2 {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
   font-size: 14px;
   font-weight: 600;
   color: var(--headline);
@@ -183,17 +184,17 @@ h3 {
 h4 {
   font-size: 14px;
   color: var(--sub-headline);
+  line-height: 1.2;
 }
 
 p,
 li {
-  margin-bottom: 0.25rem;
   font-size: 12px;
 }
 
 a {
   transition: box-shadow 160ms ease 0s;
-  box-shadow: var(--secondary) 0px -9px 0px inset;
+  box-shadow: var(--secondary) 0px -5px 0px inset;
   border-bottom: 2px solid var(--primary);
   text-decoration: none;
   color: inherit;
@@ -204,8 +205,8 @@ a:hover {
 }
 
 section ul {
-  margin-top: 0.5rem;
-  margin-left: 2.5rem;
+  margin-top: 0.15rem;
+  margin-left: 1rem;
   list-style: disc;
 }
 
@@ -272,6 +273,24 @@ section ul {
 
 .institution-header span {
   font-size: 12px;
+}
+
+.position-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  font-size: 12px;
+}
+
+.position-title {
+  font-weight: 600;
+  margin: 0;
+  font-size: 12px;
+}
+
+.position-header span {
+  color: var(--sub-headline);
 }
 
 @media print {

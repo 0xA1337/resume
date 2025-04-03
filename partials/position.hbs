@@ -1,10 +1,11 @@
-<h4>
-  {{#if position}}
-    {{position}}
-  {{/if}}
-
-  {{> date-range}}
-</h4>
+<div class="position-header">
+  <h4 class="position-title">
+    {{#if position}}
+      {{position}}
+    {{/if}}
+  </h4>
+  <span>{{> date-range}}</span>
+</div>
 
 {{#if summary}}
   <div class="summary">
