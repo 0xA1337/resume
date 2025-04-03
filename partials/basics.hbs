@@ -1,12 +1,11 @@
 {{#resume.basics}}
   <div class="header">
-    <h1>{{name}}</h1>
+    <h1>{{name}} <span class="header-label">– {{label}}</span></h1>
   </div>
   
-  <p>{{label}}</p>
 
   {{#if location}}
-    <p class="grey">
+    <p class="location grey">
       {{location.city}}, {{location.countryCode}}
 
       {{#if email }}
@@ -20,7 +19,7 @@
   {{/if}}
 
   {{#if summary}}
-    <p class="grey">{{summary}}</p>
+    <p class="summary grey">{{summary}}</p>
   {{/if}}
 
 {{/resume.basics}}

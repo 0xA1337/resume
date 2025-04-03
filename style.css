@@ -250,6 +250,7 @@ section ul {
 .header {
   display: flex;
   justify-content: center;
+  align-items: baseline;
 }
 
 .pdf {
@@ -293,6 +294,14 @@ section ul {
   color: var(--sub-headline);
 }
 
+.location {
+  text-align: center;
+}
+
+.summary {
+  margin-top: 0.3rem;
+}
+
 @media print {
   body {
     padding: 0rem;
@@ -306,4 +315,11 @@ section ul {
   .pdf {
     display: none;
   }
+}
+
+/* New rule for the label inside h1 */
+.header h1 .header-label {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: none; /* Override h1 uppercase */
 }

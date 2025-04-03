@@ -9,7 +9,8 @@
         "url": "https://a1337.me",
         "summary": "Experienced full stack developer specializing in Web3, blockchain technologies, and modern web development. Proven track record of architecting and delivering sophisticated applications across DeFi, NFTs, and blockchain infrastructure with expertise in Cosmos, Solana, and EVM ecosystems.",
         "location": {
-            "city": "Paris, FR"
+            "city": "Paris",
+            "countryCode": "FR"
         },
         "profiles": [
             {
