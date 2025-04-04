@@ -4,7 +4,10 @@
       {{position}}
     {{/if}}
   </h4>
-  <span>{{> date-range}}</span>
+  <div class="position-details">
+    <span>({{location}})</span>
+    <span>{{> date-range}}</span>
+  </div>
 </div>
 
 {{#if summary}}
