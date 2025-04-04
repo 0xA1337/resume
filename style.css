@@ -331,7 +331,7 @@ section ul {
 }
 
 .skill-category {
-  margin: 0.25rem 0;
+  margin: 0.2rem 0;
 }
 
 .skill-entry {
@@ -353,6 +353,10 @@ section ul {
 .skill-keywords {
   font-size: 11px;
   color: var(--sub-headline);
+}
+
+b {
+  font-weight: 600;
 }
 
 @page {
