@@ -7,7 +7,7 @@
         "email": "0xa1337@proton.me",
         "phone": "",
         "url": "https://a1337.me",
-        "summary": "Experienced full stack developer specializing in Web3, blockchain technologies, and modern web development. Proven track record of architecting and delivering sophisticated applications across DeFi, NFTs, and blockchain infrastructure with expertise in Cosmos, Solana, and EVM ecosystems.",
+        "summary": "Full stack developer specializing in Web3 technologies. Experienced in building DeFi and blockchain applications across EVM and Cosmos ecosystems. Strong remote collaboration skills in distributed teams.",
         "location": {
             "city": "Paris",
             "countryCode": "FR"
@@ -29,13 +29,12 @@
         {
             "name": "Polarity / Hyperhyper",
             "position": "Frontend Developer (Part-time Contract)",
-            "startDate": "2024-06-01",
+            "startDate": "2024-07-01",
             "highlights": [
-                "Developing responsive front-end components for a decentralized options trading platform on Hyperliquid blockchain",
                 "Built the MVP that contributed to the success of our initial fundraising",
-                "Implemented subgraph data integrations for real-time protocol data access"
+                "Implemented custom subgraph data integrations for real-time protocol data access"
             ],
-            "summary": "Front-end development for a decentralized options trading protocol, initially on Berachain and later rebranded to Hyperhyper on Hyperliquid blockchain.",
+            "summary": "Front-end development for a decentralized options trading protocol on Berachain and Hyperliquid.",
             "url": "https://polarity.finance/",
             "location": "Remote",
             "technologies": "Next.js, React, TypeScript, ShadCN, Tailwind, EVM Blockchains, Viem/Wagmi"
@@ -45,26 +44,24 @@
             "position": "Backend Developer (Part-time Contract)",
             "startDate": "2024-02-01",
             "highlights": [
-                "Developing data collection modules for the 'Cataloger' service within a distributed team environment",
-                "Building collectors that transform on-chain data and API responses into actionable user recommendations",
+                "Building collectors that transform onchain data and API responses into actionable user recommendations",
                 "Creating maintainable, well-tested code to enhance platform reliability"
             ],
-            "summary": "Backend development at Daylight, a Web3 startup specializing in personalized user recommendations and blockchain data analysis.",
+            "summary": "Backend development on the onchain recommendation engine powering wallets including Metamask, Coinbase Wallet, OKX, and Zerion.",
             "url": "https://daylight.xyz",
             "location": "Remote",
-            "technologies": "TypeScript, Node.js, Mocha/Sinon, PostgreSQL, Prisma, EVM Blockchains"
+            "technologies": "TypeScript, Node.js, Mocha/Sinon, PostgreSQL, Prisma, EVM Blockchains, Viem"
         },
         {
             "name": "Imperator",
-            "position": "Frontend Web3 Developer (Contract)",
+            "position": "Full Stack Web3 Developer (Part-time Contract)",
             "startDate": "2023-10-01",
             "highlights": [
-                "Developed interactive UI for Solana domain name service connecting Injective blockchain with SNS domains via Wormhole bridge",
-                "Engineered secure token airdrop platform for XION blockchain launch with robust authentication and transaction verification",
-                "Built intuitive interfaces for Authz management (permission delegation) on Injective blockchain",
-                "Adapted quickly to various tech stacks across multiple Cosmos ecosystem projects"
+                "Built cross-chain UI connecting Injective with Solana, used to register, transfer, and bridge domain names",
+                "Developed the official XION blockchain token airdrop checker and claim web app",
+                "Built the official Injective Authz dapp for permission delegation and management"
             ],
-            "summary": "Frontend development for multiple Cosmos ecosystem projects through Imperator, a major validator connecting developers with Cosmos projects.",
+            "summary": "Full stack development for major actors of the Cosmos ecosystem.",
             "url": "https://www.imperator.co/",
             "location": "Remote",
             "technologies": "Next.js, React, Nuxt, Vue, TypeScript, Tailwind, tRPC, Prisma, PostgreSQL, Vitest, Cosmos SDK"
@@ -75,10 +72,8 @@
             "startDate": "2023-07-01",
             "endDate": "2024-07-01",
             "highlights": [
-                "Architected and implemented core backend services for an AI-powered meal planning application",
-                "Coordinated work across a team of 4 developers using agile methodologies and task management tools",
-                "Designed API structure and database schema optimized for complex user preferences and dietary requirements",
-                "Developed Web3 investment management application with portfolio tracking and fiat/crypto conversion capabilities"
+                "Architected and implemented core backend services for an AI-powered mobile app and a Web3 dashboard",
+                "Coordinated work across a team of 5 developers using agile methodologies and task management tools"
             ],
             "summary": "Led backend development, designing and implementing solutions for AI and Web3 applications.",
             "url": "https://availabs.io/",
