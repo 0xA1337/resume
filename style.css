@@ -170,10 +170,11 @@ section > h2 {
   align-items: center;
 }
 
+section > h2::before,
 section > h2::after {
   content: "";
   flex: 1;
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   height: 1px;
   background-color: black;
 }
