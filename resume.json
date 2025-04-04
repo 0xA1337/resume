@@ -119,7 +119,7 @@
     "skills": [
         {
             "name": "Frontend Development",
-            "level": "Expert",
+            "level": "Advanced",
             "keywords": [
                 "React",
                 "Next.js",
@@ -132,7 +132,7 @@
         },
         {
             "name": "Backend Development",
-            "level": "Expert",
+            "level": "Advanced",
             "keywords": [
                 "Node.js",
                 "Express",
@@ -145,7 +145,7 @@
         },
         {
             "name": "Blockchain Development",
-            "level": "Expert",
+            "level": "Advanced",
             "keywords": [
                 "Web3",
                 "EVM Blockchains",
@@ -166,7 +166,7 @@
         },
         {
             "name": "Smart Contracts Development",
-            "level": "Beginner",
+            "level": "Proficient",
             "keywords": [
                 "Solidity",
                 "Hardhat"
