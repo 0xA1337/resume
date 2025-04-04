@@ -138,13 +138,13 @@ textarea {
   --sub-headline: #000000;
   --primary: rgb(221, 224, 244);
   --secondary: rgb(244, 247, 251);
+  --print-margin: 15mm;
 }
 
 body {
-  margin: 0 auto;
-  padding: 4rem 2rem;
-  max-width: 600px;
+  margin: var(--print-margin) auto;
   color: var(--text);
+  max-width: 600px;
 }
 
 h1 {
@@ -305,6 +305,8 @@ section ul {
 @media print {
   body {
     padding: 0rem;
+    margin: 0;
+    max-width: unset;
   }
 
   section,
@@ -365,4 +367,9 @@ section ul {
   border-radius: 4px; /* Slightly rounded corners */
   white-space: nowrap;
   list-style-type: none; /* Ensure no list bullets */
+}
+
+@page {
+  size: A4 portrait;
+  margin: var(--print-margin);
 }
