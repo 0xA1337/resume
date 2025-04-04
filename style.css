@@ -138,11 +138,10 @@ textarea {
   --sub-headline: #000000;
   --primary: rgb(221, 224, 244);
   --secondary: rgb(244, 247, 251);
-  --print-margin: 15mm;
 }
 
 body {
-  margin: var(--print-margin) auto;
+  margin: 15mm auto;
   color: var(--text);
   max-width: 600px;
 }
@@ -358,5 +357,5 @@ section ul {
 
 @page {
   size: A4 portrait;
-  margin: var(--print-margin);
+  margin: 15mm;
 }
