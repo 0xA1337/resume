@@ -3,12 +3,9 @@
     <h2>Skills</h2>
     {{#each resume.skills}}
     <div class="skill-category">
-        <h3>{{name}}{{#if level}} <span class="skill-level">({{level}})</span>{{/if}}</h3>
-        <ul class="keywords">
-            {{#each keywords}}
-            <li>{{this}}</li>
-            {{/each}}
-        </ul>
+        <p class="skill-entry">
+            <span class="skill-name">{{name}}</span>{{#if level}} <span class="skill-level">({{level}})</span>{{/if}}: <span class="skill-keywords">{{#each keywords}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}</span>
+        </p>
     </div>
     {{/each}}
 </section>
