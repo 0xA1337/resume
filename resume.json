@@ -152,7 +152,7 @@
     ],
     "skills": [
         {
-            "name": "Frontend Development",
+            "name": "Frontend",
             "level": "Advanced",
             "keywords": [
                 "React",
@@ -163,10 +163,9 @@
             ]
         },
         {
-            "name": "Backend Development",
+            "name": "Backend",
             "level": "Advanced",
             "keywords": [
-                "Node.js",
                 "Express",
                 "NestJS",
                 "PostgreSQL",
@@ -176,13 +175,13 @@
             ]
         },
         {
-            "name": "Blockchain Development",
+            "name": "Blockchain",
             "level": "Advanced",
             "keywords": [
-                "Web3",
                 "EVM Blockchains",
                 "Cosmos SDK",
                 "Viem/Wagmi",
+                "RainbowKit",
                 "OnchainKit"
             ]
         },
@@ -197,7 +196,7 @@
             ]
         },
         {
-            "name": "Smart Contracts Development",
+            "name": "Smart Contracts",
             "level": "Proficient",
             "keywords": [
                 "Solidity",
