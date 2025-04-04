@@ -2,7 +2,7 @@
 
 [![Build Status](https://github.com/0xA1337/resume/actions/workflows/master.yml/badge.svg)](https://github.com/0xA1337/resume/actions)
 
-Interactive resume built with [JSON Resume](https://jsonresume.org/), forked from [jsonresume-theme-standard-resume](https://github.com/EmaSuriano/jsonresume-theme-standard-resume).
+Resume built with [JSON Resume](https://jsonresume.org/), based on [jsonresume-theme-standard-resume](https://github.com/EmaSuriano/jsonresume-theme-standard-resume).
 
 ## Download Resume
 
