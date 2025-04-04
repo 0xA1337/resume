@@ -1,31 +1,19 @@
 # My Resume
 
-Forked from [jsonresume-theme-standard-resume](https://github.com/EmaSuriano/jsonresume-theme-standard-resume).
+[![Build Status](https://github.com/0xA1337/resume/actions/workflows/master.yml/badge.svg)](https://github.com/0xA1337/resume/actions)
 
-## How to use
+Interactive resume built with [JSON Resume](https://jsonresume.org/), forked from [jsonresume-theme-standard-resume](https://github.com/EmaSuriano/jsonresume-theme-standard-resume).
 
-We're going to use the official [resume-cli](https://github.com/jsonresume/resume-cli) to run our development server.
+## Download Resume
 
-```bash
-# Download official resume CLI
-> npm install -g resume-cli
+[Download Resume PDF](https://raw.githubusercontent.com/0xA1337/resume/master/resume.pdf)
 
-# Download Theme
-> npm install -g jsonresume-theme-standard-resume
+## Usage
 
-# Display your resume with the theme
-> resume serve -t standard-resume
-Preview: http://localhost:4000
-```
+- `yarn start`: Run development server on [http://localhost:3000/](http://localhost:3000/) and generate HTML/PDF on demand
+- `yarn build`: Generate HTML and PDF files in the `/public` directory
+- `yarn preview`: Start static server to preview the built files from `/public`
 
-## Development
+## 📝 License
 
-I provided three scripts inside the `package.json`:
-
-- `yarn start`: Start server on [http://localhost:3000/](http://localhost:3000/), and generate `html` and `pdf` on demand.
-- `yarn build`: Generate `html` and `pdf` file and store it inside `/public`.
-- `yarn preview`: Start static server on `/public`.
-
-## License
-
-MIT.
+MIT
