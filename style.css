@@ -149,7 +149,7 @@ section {
 }
 
 section > div:not(:last-of-type) {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
 }
 
 section ul {
@@ -212,8 +212,7 @@ section.work h3 a {
   color:rgb(16 61 156);
 }
 
-section.work h3 {
-  margin-bottom: 0.25rem; 
+section.work h3 { 
 }
 
 section.education .institution > .header {
