@@ -28,12 +28,12 @@
     "work": [
         {
             "name": "Polarity / Hyperhyper",
-            "position": "Options Trading Protocol Developer",
+            "position": "Frontend Developer (Part-time Contract)",
             "startDate": "2024-06-01",
             "highlights": [
-                "Developing front-end components for an options trading platform on Hyperliquid blockchain",
-                "Created MVP webapp that contributed to successful fundraising",
-                "Working within a team of 3 developers to enhance user experience and protocol functionality"
+                "Developing responsive front-end components for a decentralized options trading platform on Hyperliquid blockchain",
+                "Built the MVP that contributed to the success of our initial fundraising",
+                "Implemented subgraph data integrations for real-time protocol data access"
             ],
             "summary": "Front-end development for a decentralized options trading protocol, initially on Berachain and later rebranded to Hyperhyper on Hyperliquid blockchain.",
             "url": "https://polarity.finance/",
@@ -42,43 +42,45 @@
         },
         {
             "name": "Daylight",
-            "position": "Back-End Developer",
+            "position": "Backend Developer (Part-time Contract)",
             "startDate": "2024-02-01",
             "highlights": [
-                "Developing modules for the 'Cataloger' service within a 3-person team",
-                "Implementing collectors for crypto applications to transform on-chain and API data into user recommendations",
-                "Collaborating with Brooklyn-based team through regular English communication"
+                "Developing data collection modules for the 'Cataloger' service within a distributed team environment",
+                "Building collectors that transform on-chain data and API responses into actionable user recommendations",
+                "Creating maintainable, well-tested code to enhance platform reliability"
             ],
-            "summary": "Part-time contractor at Daylight (daylight.xyz), a Web3 startup specializing in user recommendations and data analysis.",
+            "summary": "Backend development at Daylight, a Web3 startup specializing in personalized user recommendations and blockchain data analysis.",
             "url": "https://daylight.xyz",
             "location": "Remote",
             "technologies": "TypeScript, Node.js, Mocha/Sinon, PostgreSQL, Prisma, EVM Blockchains"
         },
         {
             "name": "Imperator",
-            "position": "Front-End Web3 Developer",
+            "position": "Frontend Web3 Developer (Contract)",
             "startDate": "2023-10-01",
             "highlights": [
-                "Developed Solana domain name service connecting Injective blockchain with SNS domains via Wormhole bridge",
-                "Built token airdrop site for XION blockchain launch with authentication and token transfer security",
-                "Created interfaces for Authz management (permission delegation) on Injective blockchain"
+                "Developed interactive UI for Solana domain name service connecting Injective blockchain with SNS domains via Wormhole bridge",
+                "Engineered secure token airdrop platform for XION blockchain launch with robust authentication and transaction verification",
+                "Built intuitive interfaces for Authz management (permission delegation) on Injective blockchain",
+                "Adapted quickly to various tech stacks across multiple Cosmos ecosystem projects"
             ],
-            "summary": "Front-end development for multiple Cosmos ecosystem projects through Imperator, a major validator connecting developers with Cosmos projects.",
+            "summary": "Frontend development for multiple Cosmos ecosystem projects through Imperator, a major validator connecting developers with Cosmos projects.",
             "url": "https://www.imperator.co/",
             "location": "Remote",
             "technologies": "Next.js, React, Nuxt, Vue, TypeScript, Tailwind, tRPC, Prisma, PostgreSQL, Vitest, Cosmos SDK"
         },
         {
             "name": "Availabs",
-            "position": "Lead Back-End Developer",
+            "position": "Backend Team Lead (Full-time)",
             "startDate": "2023-07-01",
             "endDate": "2024-07-01",
             "highlights": [
-                "Architected and developed complete backend for an AI/LLM-based meal planning application",
-                "Led team of 4 developers using agile methodologies and task management tools",
-                "Designed and developed Web3 investment management application with portfolio tracking and fiat/crypto conversion"
+                "Architected and implemented core backend services for an AI-powered meal planning application",
+                "Coordinated work across a team of 4 developers using agile methodologies and task management tools",
+                "Designed API structure and database schema optimized for complex user preferences and dietary requirements",
+                "Developed Web3 investment management application with portfolio tracking and fiat/crypto conversion capabilities"
             ],
-            "summary": "Full-time backend leadership role at a Paris-based startup, architecting solutions for AI and Web3 applications.",
+            "summary": "Led backend development, designing and implementing solutions for AI and Web3 applications.",
             "url": "https://availabs.io/",
             "location": "Remote",
             "technologies": "TypeScript, Node.js, Express, NestJS, Vitest, PostgreSQL, Prisma, Stripe"
