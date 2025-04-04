@@ -6,7 +6,7 @@ Interactive resume built with [JSON Resume](https://jsonresume.org/), forked fro
 
 ## Download Resume
 
-[Download Resume PDF](https://raw.githubusercontent.com/0xA1337/resume/master/resume.pdf)
+[Download Resume PDF](https://raw.githubusercontent.com/0xA1337/resume/master/resume.pdf) (or [open resume](https://github.com/0xA1337/resume/blob/master/resume.pdf))
 
 ## Usage
 
