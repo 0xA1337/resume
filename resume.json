@@ -37,7 +37,15 @@
             "summary": "Frontend development for a decentralized options trading protocol on Berachain and Hyperliquid.",
             "url": "https://polarity.finance/",
             "location": "Remote",
-            "technologies": "Next.js, React, TypeScript, ShadCN, Tailwind, EVM Blockchains, Viem/Wagmi"
+            "technologies": [
+                "Next.js",
+                "React",
+                "TypeScript",
+                "ShadCN",
+                "Tailwind",
+                "EVM Blockchains",
+                "Viem/Wagmi"
+            ]
         },
         {
             "name": "Daylight",
@@ -50,7 +58,15 @@
             "summary": "Backend development on the onchain recommendation engine powering wallets including Metamask, Coinbase Wallet, OKX, and Zerion.",
             "url": "https://daylight.xyz",
             "location": "Remote",
-            "technologies": "TypeScript, Node.js, Mocha/Sinon, PostgreSQL, Prisma, EVM Blockchains, Viem"
+            "technologies": [
+                "TypeScript",
+                "Node.js",
+                "Mocha/Sinon",
+                "PostgreSQL",
+                "Prisma",
+                "EVM Blockchains",
+                "Viem"
+            ]
         },
         {
             "name": "Imperator",
@@ -64,7 +80,19 @@
             "summary": "Full stack development for major actors of the Cosmos ecosystem.",
             "url": "https://www.imperator.co/",
             "location": "Remote",
-            "technologies": "Next.js, React, Nuxt, Vue, TypeScript, Tailwind, tRPC, Prisma, PostgreSQL, Vitest, Cosmos SDK"
+            "technologies": [
+                "Next.js",
+                "React",
+                "Nuxt",
+                "Vue",
+                "TypeScript",
+                "Tailwind",
+                "tRPC",
+                "Prisma",
+                "PostgreSQL",
+                "Vitest",
+                "Cosmos SDK"
+            ]
         },
         {
             "name": "Availabs",
@@ -78,7 +106,16 @@
             "summary": "Led backend development, designing and implementing solutions for AI and Web3 applications.",
             "url": "https://availabs.io/",
             "location": "Remote",
-            "technologies": "TypeScript, Node.js, Express, NestJS, Vitest, PostgreSQL, Prisma, Stripe"
+            "technologies": [
+                "TypeScript",
+                "Node.js",
+                "Express",
+                "NestJS",
+                "Vitest",
+                "PostgreSQL",
+                "Prisma",
+                "Stripe"
+            ]
         }
     ],
     "education": [
@@ -120,8 +157,6 @@
             "keywords": [
                 "React",
                 "Next.js",
-                "Vue",
-                "Nuxt",
                 "TypeScript",
                 "Tailwind CSS",
                 "ShadCN"
@@ -196,7 +231,16 @@
                 "Integration with Farcaster for social functionality"
             ],
             "url": "https://ethglobal.com/showcase/fairpay-49hmu",
-            "technologies": "Next.js, TypeScript, ShadCN, Tailwind, OnchainKit, Viem, Base Blockchain, Farcaster",
+            "technologies": [
+                "Next.js",
+                "TypeScript",
+                "ShadCN",
+                "Tailwind",
+                "OnchainKit",
+                "Viem",
+                "Base Blockchain",
+                "Farcaster"
+            ],
             "keywords": []
         },
         {
@@ -216,7 +260,13 @@
                 "Set up CI/CD pipelines for continuous deployment"
             ],
             "url": "https://www.ampy.co",
-            "technologies": "NestJS, TypeORM, PostgreSQL, AWS (Cognito, S3, SES), NFTs",
+            "technologies": [
+                "NestJS",
+                "TypeORM",
+                "PostgreSQL",
+                "AWS (Cognito, S3, SES)",
+                "NFTs"
+            ],
             "keywords": []
         }
     ],

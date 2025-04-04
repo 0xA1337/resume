@@ -24,4 +24,11 @@
     {{/each}}
   </ul>
   {{/if}}
+
+  {{#if technologies.length}}
+  <div class="technologies">
+    <b>Stack:</b> {{#each technologies}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+  </div>
+  {{/if}}
+
 </div>
