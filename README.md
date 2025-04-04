@@ -14,6 +14,6 @@ Interactive resume built with [JSON Resume](https://jsonresume.org/), forked fro
 - `yarn build`: Generate HTML and PDF files in the `/public` directory
 - `yarn preview`: Start static server to preview the built files from `/public`
 
-## 📝 License
+## License
 
 MIT
