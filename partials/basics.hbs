@@ -1,25 +1,25 @@
 {{#resume.basics}}
-  <div class="header">
-    <h1>{{name}} <span class="header-label">– {{label}}</span></h1>
-  </div>
-  
+<header class="header">
+  <h1>{{name}} <span class="label">– {{label}}</span></h1>
+
 
   {{#if location}}
-    <p class="location grey">
-      {{location.city}}, {{location.countryCode}}
+  <div class="details">
+    {{location.city}}, {{location.countryCode}}
 
-      {{#if email }}
-        | {{ email }}
-      {{/if}}
+    {{#if email }}
+    | {{ email }}
+    {{/if}}
 
-      {{#if website }}
-        | <a href='{{website}}' target='_blank' rel='noopener'>{{website}}</a>
-      {{/if}}
-    </p>
+    {{#if website }}
+    | <a href='{{website}}' target='_blank' rel='noopener'>{{website}}</a>
+    {{/if}}
+  </div>
   {{/if}}
 
   {{#if summary}}
-    <p class="summary grey">{{summary}}</p>
+  <p class="summary">{{summary}}</p>
   {{/if}}
+</header>
 
 {{/resume.basics}}

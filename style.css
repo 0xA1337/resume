@@ -86,31 +86,17 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1.5;
-}
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -118,11 +104,26 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 @import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/* ---------------------------------------- */
+
+:root {
+  --text: #000000;
+  --headline: #000000;
+  --sub-headline: #000000;
+  --primary: rgb(221, 224, 244);
+  --secondary: rgb(244, 247, 251);
+
+  font-size: 12px;
+}
+
 html,
 button,
 input,
@@ -132,30 +133,34 @@ textarea {
   font-family: "Roboto", sans-serif;
 }
 
-:root {
-  --text: #000000;
-  --headline: #000000;
-  --sub-headline: #000000;
-  --primary: rgb(221, 224, 244);
-  --secondary: rgb(244, 247, 251);
-}
-
 body {
   margin: 15mm auto;
   color: var(--text);
   max-width: 600px;
+  line-height: 1.2;
 }
 
-h1 {
-  font-size: 16px;
+b {
   font-weight: 600;
-  text-transform: uppercase;
 }
 
-h2 {
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
-  font-size: 14px;
+section {
+  margin-top: 1.25rem;
+}
+
+section > div:not(:last-of-type) {
+  margin-bottom: 0.5rem;
+}
+
+section ul {
+  margin-top: 0.15rem;
+  margin-left: 1rem;
+  list-style: disc;
+}
+
+section > h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--headline);
   text-transform: uppercase;
@@ -165,7 +170,7 @@ h2 {
   align-items: center;
 }
 
-h2::after {
+section > h2::after {
   content: "";
   flex: 1;
   margin-left: 0.5rem;
@@ -173,132 +178,81 @@ h2::after {
   background-color: black;
 }
 
-h3 {
-  display: block;
+#resume > header > h1 {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.8;
+}
+
+#resume > header > h1 > .label {
+  font-weight: 400;
+  text-transform: none;
+}
+
+#resume > header > .details {
+  text-align: center;
+}
+
+#resume > header > .summary {
+  margin-top: 0.8rem;
+  margin-bottom: 0.3rem;
+}
+
+section.work h3,
+section.education h3 {
   text-transform: uppercase;
   font-weight: 600;
-  font-size: 12px;
 }
 
-h4 {
-  font-size: 14px;
-  color: var(--sub-headline);
-  line-height: 1.2;
-}
-
-p,
-li {
-  font-size: 12px;
-}
-
-a {
-  transition: box-shadow 160ms ease 0s;
-  box-shadow: var(--secondary) 0px -5px 0px inset;
-  border-bottom: 2px solid var(--primary);
+section.work h3 a {
   text-decoration: none;
-  color: inherit;
+  color:rgb(16 61 156);
 }
 
-a:hover {
-  box-shadow: var(--primary) 0px -1.2em 0px inset;
+section.work h3 {
+  margin-bottom: 0.25rem; 
 }
 
-section ul {
-  margin-top: 0.15rem;
-  margin-left: 1rem;
-  list-style: disc;
-}
-
-.contact {
-  padding-top: 2rem;
-}
-
-.contact span {
-  width: 100px;
-  display: inline-block;
-}
-
-.skills ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-}
-
-.skills li {
-  margin-bottom: 1rem;
-  margin-right: 0.5rem;
-  padding: 0.25rem 1rem;
-  background-color: var(--secondary);
-  white-space: nowrap;
-}
-
-.position {
-  margin-bottom: 0.25rem;
-}
-
-.languages {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 1rem;
-}
-
-.grey {
-  color: var(--sub-headline);
-}
-
-.header {
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-}
-
-.pdf {
-  color: var(--headline);
-  transition: color ease 160ms;
-  border: none;
-  box-shadow: none;
-}
-
-.pdf:hover {
-  box-shadow: none;
-  color: var(--sub-headline);
-}
-
-.institution-header {
+section.education .institution > .header {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-top: 0.5rem;
 }
 
-.institution-header span {
-  font-size: 12px;
+section.education .institution > .header span {
+  font-size: 1rem;
 }
 
-.position-header {
+section.work .position > .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0.25rem;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
-.position-title {
+section.work .position > .header > h4 {
+  font-size: 1rem;
   font-weight: 600;
+  line-height: 1.2;
   margin: 0;
-  font-size: 12px;
 }
 
-.position-header span {
-  color: var(--sub-headline);
+section.skills > .skill {
+  font-size: 1rem;
+  line-height: 1.4;
 }
 
-.location {
-  text-align: center;
+section.skills > .skill:not(:last-of-type) { 
+  margin: 0;
+  margin-bottom: 0;
 }
 
-.summary {
-  margin-top: 0.3rem;
+@page {
+  size: A4 portrait;
+  margin: 15mm;
 }
 
 @media print {
@@ -312,54 +266,4 @@ section ul {
   div {
     page-break-inside: avoid;
   }
-
-  .pdf {
-    display: none;
-  }
-}
-
-/* New rule for the label inside h1 */
-.header h1 .header-label {
-  font-size: 16px;
-  font-weight: 400;
-  text-transform: none; /* Override h1 uppercase */
-}
-
-/* Styles for the new skills section */
-.skills-section {
-  margin-top: 1rem; /* Add some space above the section */
-}
-
-.skill-category {
-  margin: 0.2rem 0;
-}
-
-.skill-entry {
-  font-size: 12px;
-  line-height: 1.4;
-}
-
-.skill-name {
-  font-weight: 600;
-}
-
-.skill-level {
-  font-weight: 400;
-  font-size: 11px;
-  color: var(--sub-headline);
-  text-transform: none;
-}
-
-.skill-keywords {
-  font-size: 11px;
-  color: var(--sub-headline);
-}
-
-b {
-  font-weight: 600;
-}
-
-@page {
-  size: A4 portrait;
-  margin: 15mm;
 }

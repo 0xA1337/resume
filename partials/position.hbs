@@ -1,25 +1,27 @@
-<div class="position-header">
-  <h4 class="position-title">
-    {{#if position}}
+<div class="position">
+  <div class="header">
+    <h4>
+      {{#if position}}
       {{position}}
-    {{/if}}
-  </h4>
-  <div class="position-details">
-    <span>({{location}})</span>
-    <span>{{> date-range}}</span>
+      {{/if}}
+    </h4>
+    <div class="details">
+      <span>({{location}})</span>
+      <span>{{> date-range}}</span>
+    </div>
   </div>
-</div>
 
-{{#if summary}}
+  {{#if summary}}
   <div class="summary">
     <p>{{summary}}</p>
   </div>
-{{/if}}
+  {{/if}}
 
-{{#if highlights.length}}
+  {{#if highlights.length}}
   <ul class="highlights">
     {{#each highlights}}
-      <li>{{.}}</li>
+    <li>{{.}}</li>
     {{/each}}
   </ul>
-{{/if}}
+  {{/if}}
+</div>
