@@ -32,9 +32,9 @@
             "startDate": "2024-07-01",
             "highlights": [
                 "Built the MVP that contributed to the success of our initial fundraising",
-                "Implemented custom subgraph data integrations for real-time protocol data access"
+                "Implemented custom subgraphs for real-time protocol data access"
             ],
-            "summary": "Front-end development for a decentralized options trading protocol on Berachain and Hyperliquid.",
+            "summary": "Frontend development for a decentralized options trading protocol on Berachain and Hyperliquid.",
             "url": "https://polarity.finance/",
             "location": "Remote",
             "technologies": "Next.js, React, TypeScript, ShadCN, Tailwind, EVM Blockchains, Viem/Wagmi"
@@ -68,7 +68,7 @@
         },
         {
             "name": "Availabs",
-            "position": "Backend Team Lead (Full-time)",
+            "position": "Lead Backend Developer (Full-time)",
             "startDate": "2023-07-01",
             "endDate": "2024-07-01",
             "highlights": [
@@ -133,6 +133,15 @@
             "keywords": [
                 "Node.js",
                 "Express",
+                "NestJS",
+                "NestJS",
+                "NestJS",
+                "NestJS",
+                "NestJS",
+                "NestJS",
+                "NestJS",
+                "NestJS",
+                "NestJS",
                 "NestJS",
                 "PostgreSQL",
                 "Prisma",
