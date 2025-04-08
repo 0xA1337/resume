@@ -14,6 +14,11 @@
     {{#if website }}
     | <a href='{{website}}' target='_blank' rel='noopener'>{{website}}</a>
     {{/if}}
+
+    {{#each profiles}}
+    | <a href='{{url}}' target='_blank' rel='noopener'>{{network}}</a>
+    {{/each}}
+
   </div>
   {{/if}}
 
