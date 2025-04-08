@@ -6,7 +6,7 @@ Resume built with [JSON Resume](https://jsonresume.org/), based on [jsonresume-t
 
 ## Download Resume
 
-[Download Resume PDF](https://raw.githubusercontent.com/0xA1337/resume/master/resume.pdf) (or [open resume](https://github.com/0xA1337/resume/blob/master/resume.pdf))
+[Download Resume PDF](https://raw.githubusercontent.com/0xA1337/resume/master/resume.pdf) (or [open resume](https://docs.google.com/viewer?url=https://raw.githubusercontent.com/0xA1337/resume/master/resume.pdf))
 
 ## Usage
 
