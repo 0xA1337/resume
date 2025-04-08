@@ -17,11 +17,6 @@
                 "network": "GitHub",
                 "username": "0xA1337",
                 "url": "https://github.com/0xA1337"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "arthur-ljy",
-                "url": "https://www.linkedin.com/in/arthur-ljy/"
             }
         ]
     },
@@ -75,7 +70,7 @@
             "highlights": [
                 "Built cross-chain UI connecting Injective with Solana, used to register, transfer, and bridge domain names",
                 "Developed the official XION blockchain token airdrop checker and claim web app",
-                "Built the official Injective Authz dapp for permission delegation and management"
+                "Contributed to the official Injective Authz dapp for permission delegation and management"
             ],
             "summary": "Full stack development for major actors of the Cosmos ecosystem.",
             "url": "https://www.imperator.co/",
