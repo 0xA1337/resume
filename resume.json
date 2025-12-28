@@ -2,14 +2,13 @@
     "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
     "basics": {
         "name": "Arthur L.",
-        "label": "Full Stack Developer | Web3 Specialist",
+        "label": "Software Engineer | Web3 Specialist",
         "image": "",
         "email": "0xa1337@proton.me",
         "phone": "",
-        "url": "https://a1337.me",
-        "summary": "Full stack developer specializing in Web3 technologies. Experienced in building DeFi and blockchain applications across EVM and Cosmos ecosystems. Strong remote collaboration skills in distributed teams.",
+        "summary": "Full stack engineer specializing in Web3 technologies. Experienced in building DeFi and blockchain applications across EVM and Cosmos ecosystems. Strong remote collaboration skills in distributed teams.",
         "location": {
-            "city": "Paris",
+            "city": "Nice",
             "countryCode": "FR"
         },
         "profiles": [
@@ -22,9 +21,49 @@
     },
     "work": [
         {
+            "name": "Injective",
+            "position": "Frontend Engineer (Full-time)",
+            "startDate": "2025-05-18",
+            "highlights": [],
+            "summary": "Frontend development across Injective's ecosystem.",
+            "url": "https://injective.com",
+            "location": "Remote",
+            "technologies": [
+                "Nuxt",
+                "Vue",
+                "TypeScript",
+                "Tailwind",
+                "Vitest",
+                "Viem"
+            ]
+        },
+        {
+            "name": "Daylight",
+            "position": "Backend Engineer (Freelance, Part-time)",
+            "startDate": "2024-02-01",
+            "endDate": "2025-05-01",
+            "highlights": [
+                "Built collectors that transform onchain data and API responses into actionable user recommendations",
+                "Created maintainable, well-tested code to enhance platform reliability"
+            ],
+            "summary": "Backend development on the onchain recommendation engine powering wallets including Metamask, Coinbase Wallet, OKX, and Zerion.",
+            "url": "https://daylight.xyz",
+            "location": "Remote",
+            "technologies": [
+                "TypeScript",
+                "Node.js",
+                "Mocha/Sinon",
+                "PostgreSQL",
+                "Prisma",
+                "EVM Blockchains",
+                "Viem"
+            ]
+        },
+        {
             "name": "Polarity / Hyperhyper",
-            "position": "Frontend Developer (Freelance, Part-time)",
+            "position": "Frontend Engineer (Freelance, Part-time)",
             "startDate": "2024-07-01",
+            "endDate": "2025-04-01",
             "highlights": [
                 "Built the MVP that contributed to the success of our initial fundraising",
                 "Implemented custom subgraphs for real-time protocol data access"
@@ -43,29 +82,8 @@
             ]
         },
         {
-            "name": "Daylight",
-            "position": "Backend Developer (Freelance, Part-time)",
-            "startDate": "2024-02-01",
-            "highlights": [
-                "Building collectors that transform onchain data and API responses into actionable user recommendations",
-                "Creating maintainable, well-tested code to enhance platform reliability"
-            ],
-            "summary": "Backend development on the onchain recommendation engine powering wallets including Metamask, Coinbase Wallet, OKX, and Zerion.",
-            "url": "https://daylight.xyz",
-            "location": "Remote",
-            "technologies": [
-                "TypeScript",
-                "Node.js",
-                "Mocha/Sinon",
-                "PostgreSQL",
-                "Prisma",
-                "EVM Blockchains",
-                "Viem"
-            ]
-        },
-        {
             "name": "Imperator",
-            "position": "Full Stack Developer (Freelance, Part-time)",
+            "position": "Full Stack Engineer (Freelance, Part-time)",
             "startDate": "2023-10-01",
             "highlights": [
                 "Built cross-chain UI connecting Injective with Solana, used to register, transfer, and bridge domain names",
@@ -91,7 +109,7 @@
         },
         {
             "name": "Availabs",
-            "position": "Lead Backend Developer (Full-time)",
+            "position": "Lead Backend Engineer (Full-time)",
             "startDate": "2023-07-01",
             "endDate": "2024-07-01",
             "highlights": [
@@ -150,6 +168,8 @@
             "name": "Frontend",
             "level": "Advanced",
             "keywords": [
+                "Vue",
+                "Nuxt",
                 "React",
                 "Next.js",
                 "TypeScript",
@@ -216,7 +236,7 @@
             "startDate": "2024-08-02",
             "endDate": "2024-08-12",
             "roles": [
-                "Full Stack Developer"
+                "Full Stack Engineer"
             ],
             "description": "A gasless crowdfunding platform built on Base and integrated with Farcaster. Developed as a solo project during the SuperHack 2024 online hackathon.",
             "highlights": [
@@ -242,7 +262,7 @@
             "startDate": "2022-09-01",
             "endDate": "2024-01-01",
             "roles": [
-                "Back-end Developer",
+                "Backend Engineer",
                 "Team Lead"
             ],
             "description": "Platform connecting musical artists with fans by exchanging album purchases/pre-orders/Spotify streams for chances to win prizes and benefits, using blockchain and NFTs to store users' 'fan cards' for specific artists.",
