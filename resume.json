@@ -2,20 +2,26 @@
     "$schema": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
     "basics": {
         "name": "Arthur L.",
-        "label": "Software Engineer | Web3 Specialist",
+        "label": "Software Engineer | Fintech & Web3",
         "image": "",
         "email": "0xa1337@proton.me",
         "phone": "",
-        "summary": "Software engineer specializing in Web3 technologies. Experienced in building DeFi and blockchain applications across EVM and Cosmos ecosystems. Strong remote collaboration skills in distributed teams.",
+        "summary": "Software engineer with experience building DeFi and blockchain products across EVM and Cosmos ecosystems. Strong remote collaboration skills in distributed teams.",
         "location": {
             "city": "Nice",
             "countryCode": "FR"
         },
+        "website": "https://arthurs.page",
         "profiles": [
             {
                 "network": "GitHub",
                 "username": "0xA1337",
                 "url": "https://github.com/0xA1337"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Arthur L.",
+                "url": "https://www.linkedin.com/in/arthur-ljy/"
             }
         ]
     },
@@ -25,7 +31,7 @@
             "position": "Frontend Engineer (Full-time)",
             "startDate": "2025-05-18",
             "highlights": [],
-            "summary": "Frontend development across Injective's ecosystem.",
+            "summary": "Frontend development across Injective's ecosystem, including TrueCurrent and Helix, its main perps DEX.",
             "url": "https://injective.com",
             "location": "Remote",
             "technologies": [
@@ -46,7 +52,7 @@
                 "Built collectors that transform onchain data and API responses into actionable user recommendations",
                 "Created maintainable, well-tested code to enhance platform reliability"
             ],
-            "summary": "Backend development on the onchain recommendation engine powering wallets including Metamask, Coinbase Wallet, OKX, and Zerion.",
+            "summary": "Backend development on the onchain recommendation engine powering wallets including MetaMask, Coinbase Wallet, OKX, and Zerion.",
             "url": "https://daylight.xyz",
             "location": "Remote",
             "technologies": [
@@ -65,10 +71,10 @@
             "startDate": "2024-07-01",
             "endDate": "2025-04-01",
             "highlights": [
-                "Built the MVP that contributed to the success of our initial fundraising",
-                "Implemented custom subgraphs for real-time protocol data access"
+                "Built the MVP that contributed to the success of the initial fundraising",
+                "Created custom subgraphs for real-time protocol data access"
             ],
-            "summary": "Frontend development for a decentralized options trading protocol on Berachain and Hyperliquid.",
+            "summary": "Frontend development for an options trading protocol on Berachain and Hyperliquid.",
             "url": "https://polarity.finance/",
             "location": "Remote",
             "technologies": [
@@ -85,12 +91,13 @@
             "name": "Imperator",
             "position": "Full Stack Engineer (Freelance, Part-time)",
             "startDate": "2023-10-01",
+            "endDate": "2025-05-01",
             "highlights": [
                 "Built cross-chain UI connecting Injective with Solana, used to register, transfer, and bridge domain names",
                 "Developed the official XION blockchain token airdrop checker and claim web app",
                 "Contributed to the official Injective Authz dapp for permission delegation and management"
             ],
-            "summary": "Full stack development for major actors of the Cosmos ecosystem.",
+            "summary": "Full-stack development for major actors across the Cosmos ecosystem.",
             "url": "https://www.imperator.co/",
             "location": "Remote",
             "technologies": [
@@ -113,10 +120,10 @@
             "startDate": "2023-07-01",
             "endDate": "2024-07-01",
             "highlights": [
-                "Architected and implemented core backend services for an AI-powered mobile app and a Web3 dashboard",
+                "Architected core backend services for an AI-powered mobile app and a Web3 dashboard",
                 "Coordinated work across a team of 5 developers using agile methodologies and task management tools"
             ],
-            "summary": "Led backend development, designing and implementing solutions for AI and Web3 applications.",
+            "summary": "Led backend development for AI and Web3 applications.",
             "url": "https://availabs.io/",
             "location": "Remote",
             "technologies": [
@@ -158,7 +165,7 @@
             "title": "Base Blockchain Prize - SuperHack 2024",
             "date": "2024-01-01",
             "awarder": "ETHGlobal",
-            "summary": "Won as a solo developer against teams for building 'Fairpay', a gasless crowdfunding platform based on Base and Farcaster.",
+            "summary": "Won as a solo developer for building 'Fairpay', a gasless crowdfunding platform based on Base and Farcaster.",
             "url": "https://ethglobal.com/showcase/fairpay-49hmu",
             "keywords": []
         }
@@ -240,8 +247,8 @@
             ],
             "description": "A gasless crowdfunding platform built on Base and integrated with Farcaster. Developed as a solo project during the SuperHack 2024 online hackathon.",
             "highlights": [
-                "Won Base blockchain prize at ETHGlobal's SuperHack 2024",
-                "Full stack implementation with gasless transactions for improved user experience",
+                "Won the Base Blockchain Prize at ETHGlobal's SuperHack 2024",
+                "Built full-stack gasless transaction flows for improved user experience",
                 "Integration with Farcaster for social functionality"
             ],
             "url": "https://ethglobal.com/showcase/fairpay-49hmu",
@@ -267,9 +274,9 @@
             ],
             "description": "Platform connecting musical artists with fans by exchanging album purchases/pre-orders/Spotify streams for chances to win prizes and benefits, using blockchain and NFTs to store users' 'fan cards' for specific artists.",
             "highlights": [
-                "Collaborated with Sony Music (France), and the world class artist Jain for her album 'The Fool'",
-                "Led team of 5 developers, implementing agile methodologies and task management",
-                "Served as back-end development lead responsible for architecture decisions and technology selection",
+                "Collaborated with Sony Music France and world-class artist Jain for her album 'The Fool'",
+                "Led a team of 5 developers, introducing agile methodologies and task management",
+                "Served as backend development lead responsible for architecture decisions and technology selection",
                 "Mentored junior developers and provided technical guidance",
                 "Set up CI/CD pipelines for continuous deployment"
             ],
