@@ -6,7 +6,7 @@
         "image": "",
         "email": "0xa1337@proton.me",
         "phone": "",
-        "summary": "Software engineer with experience building DeFi and blockchain products across EVM and Cosmos ecosystems. Strong remote collaboration skills in distributed teams.",
+        "summary": "Software engineer building high-stakes financial products across perpetual trading, RFQ, prediction markets, and cross-chain applications. Combines strong trading-domain knowledge and end-to-end feature ownership within distributed teams.",
         "location": {
             "city": "Nice",
             "countryCode": "FR"
@@ -30,8 +30,14 @@
             "name": "Injective",
             "position": "Frontend Engineer (Full-time)",
             "startDate": "2025-05-18",
-            "highlights": [],
-            "summary": "Frontend development across Injective's ecosystem, including TrueCurrent and Helix, its main perps DEX.",
+            "highlights": [
+                "Own TrueCurrent's trade form and core trading logic, including chain-derived leverage constraints, margin and fee calculations, slippage estimations, position sizing, and extensive order validation across 300+ markets",
+                "Optimized RFQ collection to filter executable quotes, and reduce latency",
+                "Built a Polymarket integration for Injective users, delivering an MVP in 3 days and a production release in 2 weeks ahead of the FIFA World Cup",
+                "Established the company's first design system for TrueCurrent, partnering with designers on shared tokens and reusable components while leading alignment across the five-person frontend team",
+                "Built TrueCurrent's portfolio interface, validating financial data against backend calculations"
+            ],
+            "summary": "Frontend engineering across TrueCurrent and Helix, trading platforms supporting over $15M in daily volume.",
             "url": "https://injective.com",
             "location": "Remote",
             "technologies": [
@@ -44,52 +50,8 @@
             ]
         },
         {
-            "name": "Daylight",
-            "position": "Backend Engineer (Freelance, Part-time)",
-            "startDate": "2024-02-01",
-            "endDate": "2025-05-01",
-            "highlights": [
-                "Built collectors that transform onchain data and API responses into actionable user recommendations",
-                "Created maintainable, well-tested code to enhance platform reliability"
-            ],
-            "summary": "Backend development on the onchain recommendation engine powering wallets including MetaMask, Coinbase Wallet, OKX, and Zerion.",
-            "url": "https://daylight.xyz",
-            "location": "Remote",
-            "technologies": [
-                "TypeScript",
-                "Node.js",
-                "Mocha/Sinon",
-                "PostgreSQL",
-                "Prisma",
-                "EVM Blockchains",
-                "Viem"
-            ]
-        },
-        {
-            "name": "Polarity / Hyperhyper",
-            "position": "Frontend Engineer (Freelance, Part-time)",
-            "startDate": "2024-07-01",
-            "endDate": "2025-04-01",
-            "highlights": [
-                "Built the MVP that contributed to the success of the initial fundraising",
-                "Created custom subgraphs for real-time protocol data access"
-            ],
-            "summary": "Frontend development for an options trading protocol on Berachain and Hyperliquid.",
-            "url": "https://polarity.finance/",
-            "location": "Remote",
-            "technologies": [
-                "Next.js",
-                "React",
-                "TypeScript",
-                "ShadCN",
-                "Tailwind",
-                "EVM Blockchains",
-                "Viem/Wagmi"
-            ]
-        },
-        {
             "name": "Imperator",
-            "position": "Full Stack Engineer (Freelance, Part-time)",
+            "position": "Full-Stack Engineer (Contractor, Part-time)",
             "startDate": "2023-10-01",
             "endDate": "2025-05-01",
             "highlights": [
@@ -115,15 +77,36 @@
             ]
         },
         {
-            "name": "Availabs",
-            "position": "Lead Backend Engineer (Full-time)",
-            "startDate": "2023-07-01",
-            "endDate": "2024-07-01",
+            "name": "Daylight",
+            "position": "Backend Engineer (Contractor, Part-time)",
+            "startDate": "2024-02-01",
+            "endDate": "2025-04-30",
             "highlights": [
-                "Architected core backend services for an AI-powered mobile app and a Web3 dashboard",
-                "Coordinated work across a team of 5 developers using agile methodologies and task management tools"
+                "Built and tested data collectors that normalized onchain and third-party API data into personalized, actionable wallet recommendations"
             ],
-            "summary": "Led backend development for AI and Web3 applications.",
+            "summary": "Backend engineering on the recommendation engine powering wallet experiences across MetaMask, Coinbase Wallet, OKX, and Zerion.",
+            "url": "https://daylight.xyz",
+            "location": "Remote",
+            "technologies": [
+                "TypeScript",
+                "Node.js",
+                "Vitest",
+                "PostgreSQL",
+                "Prisma",
+                "EVM",
+                "Viem"
+            ]
+        },
+        {
+            "name": "Availabs",
+            "position": "Backend Engineer (Contractor, Full-time)",
+            "startDate": "2023-09-01",
+            "endDate": "2024-09-01",
+            "highlights": [
+                "Architected backend services for an AI-powered meal recommendation app and an investor onboarding and token vesting platform",
+                "Coordinated delivery across a team of five developers"
+            ],
+            "summary": "Backend engineering and technical coordination across AI and Web3 products.",
             "url": "https://availabs.io/",
             "location": "Remote",
             "technologies": [
@@ -136,6 +119,23 @@
                 "Prisma",
                 "Stripe"
             ]
+        },
+        {
+            "name": "Alcatel-Lucent Enterprise",
+            "position": "Backend Developer (Apprenticeship)",
+            "startDate": "2021-09-01",
+            "endDate": "2023-09-01",
+            "url": "https://www.openrainbow.com/app/en",
+            "highlights": [
+                "Built an office-booking microservice and APIs for product-license sales KPIs"
+            ],
+            "summary": "Two-year software engineering apprenticeship completed alongside a master's degree.",
+            "location": "Strasbourg, France",
+            "technologies": [
+                "Node.js",
+                "Express",
+                "MongoDB"
+            ]
         }
     ],
     "education": [
@@ -144,49 +144,30 @@
             "area": "Software Science and Engineering (SIL)",
             "studyType": "Master's Degree",
             "startDate": "2021-09-01",
-            "endDate": "2023-07-01",
-            "courses": [
-                "Work-study program (alternance)"
-            ]
+            "endDate": "2023-07-01"
         },
         {
             "institution": "University of Strasbourg",
             "area": "Computer Science",
             "studyType": "Bachelor's Degree",
             "startDate": "2018-09-01",
-            "endDate": "2021-07-01",
-            "courses": [
-                "General computer science curriculum"
-            ]
-        }
-    ],
-    "awards": [
-        {
-            "title": "Base Blockchain Prize - SuperHack 2024",
-            "date": "2024-01-01",
-            "awarder": "ETHGlobal",
-            "summary": "Won as a solo developer for building 'Fairpay', a gasless crowdfunding platform based on Base and Farcaster.",
-            "url": "https://ethglobal.com/showcase/fairpay-49hmu",
-            "keywords": []
+            "endDate": "2021-07-01"
         }
     ],
     "skills": [
         {
             "name": "Frontend",
-            "level": "Advanced",
             "keywords": [
                 "Vue",
                 "Nuxt",
                 "React",
                 "Next.js",
                 "TypeScript",
-                "Tailwind CSS",
-                "ShadCN"
+                "Tailwind CSS"
             ]
         },
         {
             "name": "Backend",
-            "level": "Advanced",
             "keywords": [
                 "Express",
                 "NestJS",
@@ -198,7 +179,6 @@
         },
         {
             "name": "Blockchain",
-            "level": "Advanced",
             "keywords": [
                 "EVM Blockchains",
                 "Cosmos SDK",
@@ -209,20 +189,11 @@
         },
         {
             "name": "DevOps & Tools",
-            "level": "Proficient",
             "keywords": [
                 "GitHub Actions",
                 "CI/CD",
                 "AWS",
-                "Vitest, Mocha/Sinon"
-            ]
-        },
-        {
-            "name": "Smart Contracts",
-            "level": "Proficient",
-            "keywords": [
-                "Solidity",
-                "Hardhat"
+                "Vitest"
             ]
         }
     ],
@@ -236,64 +207,5 @@
             "fluency": "Proficient"
         }
     ],
-    "references": [],
-    "projects": [
-        {
-            "name": "Fairpay",
-            "startDate": "2024-08-02",
-            "endDate": "2024-08-12",
-            "roles": [
-                "Full Stack Engineer"
-            ],
-            "description": "A gasless crowdfunding platform built on Base and integrated with Farcaster. Developed as a solo project during the SuperHack 2024 online hackathon.",
-            "highlights": [
-                "Won the Base Blockchain Prize at ETHGlobal's SuperHack 2024",
-                "Built full-stack gasless transaction flows for improved user experience",
-                "Integration with Farcaster for social functionality"
-            ],
-            "url": "https://ethglobal.com/showcase/fairpay-49hmu",
-            "technologies": [
-                "Next.js",
-                "TypeScript",
-                "ShadCN",
-                "Tailwind",
-                "OnchainKit",
-                "Viem",
-                "Base Blockchain",
-                "Farcaster"
-            ],
-            "keywords": []
-        },
-        {
-            "name": "Ampy",
-            "startDate": "2022-09-01",
-            "endDate": "2024-01-01",
-            "roles": [
-                "Backend Engineer",
-                "Team Lead"
-            ],
-            "description": "Platform connecting musical artists with fans by exchanging album purchases/pre-orders/Spotify streams for chances to win prizes and benefits, using blockchain and NFTs to store users' 'fan cards' for specific artists.",
-            "highlights": [
-                "Collaborated with Sony Music France and world-class artist Jain for her album 'The Fool'",
-                "Led a team of 5 developers, introducing agile methodologies and task management",
-                "Served as backend development lead responsible for architecture decisions and technology selection",
-                "Mentored junior developers and provided technical guidance",
-                "Set up CI/CD pipelines for continuous deployment"
-            ],
-            "url": "https://www.ampy.co",
-            "technologies": [
-                "NestJS",
-                "TypeORM",
-                "PostgreSQL",
-                "AWS (Cognito, S3, SES)",
-                "NFTs"
-            ],
-            "keywords": []
-        }
-    ],
-    "meta": {
-        "canonical": "https://raw.githubusercontent.com/reorx/jsoncv/master/schema/jsoncv.schema.json",
-        "version": "v2.0.0",
-        "lastModified": "2025-04-01T14:37:37+09:00Z"
-    }
+    "references": []
 }
